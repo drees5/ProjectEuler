@@ -30,7 +30,7 @@ for question, number in enumerate(numbers):
     number = number.strip().split('\n')
 
     # converting each and every list of strings to int
-    number = list(map(lambda row: [int(i) for i in row.split(' ')], [row for row in number]))
+    number = list(map(lambda row: [int(num) for num in row.split(' ')], [row for row in number]))
 
     # counter for counting number of iterations
     counter = 0
