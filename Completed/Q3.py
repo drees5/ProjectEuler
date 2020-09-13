@@ -1,5 +1,5 @@
 # Use Sieve of Eratosthenes
-from gen_primes import gen_primes
+from Completed.gen_primes import gen_primes
 
 num = 600851475143
 factors = []
